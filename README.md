@@ -1,6 +1,6 @@
 # PotholeDetectionDevice
 
-video demo (proof of concept): [here](https://drive.google.com/file/d/1Hpt28FcrFKwXlsGwkzL7xro4kgT3ilEZ/view?usp=sharing)
+Video demo (proof of concept): [here](https://drive.google.com/file/d/1Hpt28FcrFKwXlsGwkzL7xro4kgT3ilEZ/view?usp=sharing)
 
 An attachable accessory device for industrial vehicles that detects potholes on the road and alerts the driver using an alerting component such as an LED or a buzzer. The device consists of an attachable container within which there is a camera and a Raspberry Pi that is connected. The camera acts as a sensor to provide images to the model to evaluate if there is a pothole or not in front of the device. The camera has a field of view of 32.4 feet. The camera will be positioned under and in front of the vehicles, and the alerting component will be present near the driver and connected through the container to the GPIO pins of the Raspberry Pi. In future tests, we will use global shutter cameras to improve the field of view and image quality.
 
